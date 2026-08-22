@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-checker",
+  "version": "1.0.0",
+  "description": "Standalone tool to check which numbers in a CSV are on WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.5.0",
+    "qrcode": "^1.5.3",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
